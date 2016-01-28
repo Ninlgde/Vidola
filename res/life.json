@@ -1,0 +1,494 @@
+{
+  "ID": "7ec60e15-3d72-4208-88bf-579053be7ee3",
+  "Version": "2.3.3.0",
+  "Name": "life",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 11,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "开始",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 436.0743,
+              "Y": 829.6979
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6814,
+              "Y": 0.8643
+            },
+            "PreSize": {
+              "X": 0.15,
+              "Y": 0.0625
+            },
+            "LeftMargin": 388.0743,
+            "RightMargin": 155.9257,
+            "TopMargin": 100.3021,
+            "BottomMargin": 799.6979,
+            "CallBackType": "Click",
+            "CallBackName": "onStartClicked",
+            "Tag": 18,
+            "ActionTag": -1174141812,
+            "Size": {
+              "X": 96.0,
+              "Y": 60.0
+            },
+            "Name": "_btn_start",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0688
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6667
+            },
+            "TopMargin": 254.0,
+            "BottomMargin": 66.0,
+            "Tag": 19,
+            "ActionTag": -1357530405,
+            "Size": {
+              "X": 640.0,
+              "Y": 640.0
+            },
+            "Name": "panel_sprite",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0688
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6667
+            },
+            "TopMargin": 254.0,
+            "BottomMargin": 66.0,
+            "Tag": 13,
+            "ActionTag": -957651619,
+            "Size": {
+              "X": 640.0,
+              "Y": 640.0
+            },
+            "Name": "panel_btn",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "tmp_2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "tmp_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 5,
+            "Scale9OriginY": 5,
+            "Scale9Width": 6,
+            "Scale9Height": 6,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 66.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0688
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6667
+            },
+            "TopMargin": 254.0,
+            "BottomMargin": 66.0,
+            "Tag": 13,
+            "ActionTag": -1494999197,
+            "Size": {
+              "X": 640.0,
+              "Y": 640.0
+            },
+            "Name": "_btn_life",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "10",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 2,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 178.2901,
+              "Y": 805.0023
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2786,
+              "Y": 0.8385
+            },
+            "PreSize": {
+              "X": 0.1328,
+              "Y": 0.024
+            },
+            "LeftMargin": 135.7901,
+            "RightMargin": 419.2099,
+            "TopMargin": 143.4977,
+            "BottomMargin": 793.5023,
+            "Tag": 20,
+            "ActionTag": 1704912731,
+            "Size": {
+              "X": 85.0,
+              "Y": 23.0
+            },
+            "Name": "_input_turn",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "输入进行几轮游戏(最少10轮)",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 178.2892,
+              "Y": 852.8524
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2786,
+              "Y": 0.8884
+            },
+            "PreSize": {
+              "X": 0.3984,
+              "Y": 0.024
+            },
+            "LeftMargin": 50.7892,
+            "RightMargin": 334.2108,
+            "TopMargin": 95.6476,
+            "BottomMargin": 841.3524,
+            "Tag": 21,
+            "ActionTag": 1503464309,
+            "Size": {
+              "X": 255.0,
+              "Y": 23.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 40,
+            "LabelText": "Life Game!!!",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 313.5,
+              "Y": 909.494
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 191,
+              "G": 191,
+              "B": 191
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4898,
+              "Y": 0.9474
+            },
+            "PreSize": {
+              "X": 0.3391,
+              "Y": 0.0469
+            },
+            "LeftMargin": 205.0,
+            "RightMargin": 218.0,
+            "TopMargin": 28.006,
+            "BottomMargin": 886.994,
+            "Tag": 14,
+            "ActionTag": 2089873660,
+            "Size": {
+              "X": 217.0,
+              "Y": 45.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "清除",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 554.5,
+              "Y": 828.4614
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8664,
+              "Y": 0.863
+            },
+            "PreSize": {
+              "X": 0.0719,
+              "Y": 0.0375
+            },
+            "LeftMargin": 531.5,
+            "RightMargin": 62.5,
+            "TopMargin": 113.5386,
+            "BottomMargin": 810.4614,
+            "Tag": 17,
+            "ActionTag": 1734561036,
+            "Size": {
+              "X": 46.0,
+              "Y": 36.0
+            },
+            "Name": "_btn_clean",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Normal.png",
+        "Default/Button_Press.png",
+        "tmp_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
